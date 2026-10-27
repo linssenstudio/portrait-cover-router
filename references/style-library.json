@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "canvas": { "width": 600, "height": 800, "ratio": "3:4" },
+  "styles": [
+    {
+      "id": "Style_01",
+      "name": "顶部巨字人像风",
+      "vibe": "直接、醒目、社媒高识别度",
+      "layout": "满版照片；顶部标题占20%–28%，中部人物，底部结论句",
+      "typography": "超粗黑体或圆体 + 中粗无衬线 + Inter微字",
+      "blend": "normal；描边或linear-gradient托底",
+      "photoRequirements": "半身或胸像，人物居中，头顶有15%–25%干净空间，面部位于Y30%–45%，背景低细节",
+      "references": ["social/797-02.jpg", "social/801-03.jpg", "social/806-01.jpg"]
+    },
+    {
+      "id": "Style_02",
+      "name": "左右包围竖排风",
+      "vibe": "强势、东方编辑感、权威感",
+      "layout": "中轴人物 + 左右文字柱；标题拆分在人物两侧",
+      "typography": "展示宋体或粗黑 + 细黑体 + Inter",
+      "blend": "normal；必要时使用半透明横向信息带",
+      "photoRequirements": "正面或45度半身像，人物左右各有约15%安全排字区，头部轮廓完整，人物不能贴边",
+      "references": ["social/798-01.jpg", "social/799-04.jpg", "social/800-01.jpg"]
+    },
+    {
+      "id": "Style_03",
+      "name": "底部信息带杂志风",
+      "vibe": "理性、栏目化、知识型杂志",
+      "layout": "上部摄影60%–75%，下部信息带20%–38%",
+      "typography": "Noto Serif SC或粗黑 + Inter",
+      "blend": "normal + linear-gradient；不用生硬黑框",
+      "photoRequirements": "人物中上部完整，底部25%没有重要手势或器物；深色服装或暗背景更佳",
+      "references": ["social/798-02.jpg", "social/801-02.jpg", "social/808-02.jpg"]
+    },
+    {
+      "id": "Style_04",
+      "name": "中央纸条对话框风",
+      "vibe": "亲和、手作、访谈与Vlog感",
+      "layout": "人物全幅背景，中央偏下放置65%–90%宽的文字卡片",
+      "typography": "宋体或粗黑 + Inter或手写微字",
+      "blend": "normal；纸白卡片或半透明圆角框",
+      "photoRequirements": "面部位于上35%，胸腹区域允许遮挡，下半身无关键动作，背景与卡片有明度差",
+      "references": ["social/799-03.jpg", "social/803-03.jpg", "social/807-02.jpg"]
+    },
+    {
+      "id": "Style_05",
+      "name": "手账描边拼贴风",
+      "vibe": "年轻、活泼、数字手账、生活方式",
+      "layout": "标题沿人物轮廓排列，贴纸、箭头和账号围绕主体",
+      "typography": "手写字或圆体 + 粗黑 + Inter",
+      "blend": "normal；人物白色或荧光轮廓，局部色块托底",
+      "photoRequirements": "人物轮廓清晰、头发与背景分离明显、肢体动作完整；杂乱背景和模糊轮廓不适用",
+      "references": ["social/798-03.jpg", "social/803-04.jpg", "social/806-02.jpg"]
+    },
+    {
+      "id": "Style_06",
+      "name": "宋体书法编辑风",
+      "vibe": "东方、文学、成熟、传统杂志感",
+      "layout": "顶部超大宋体或书法字，人物居中下部，可用上下双标题",
+      "typography": "Noto Serif SC + 行书或手写体 + Inter",
+      "blend": "normal；通过人物白边或暗部自然分离",
+      "photoRequirements": "半身像、深色服装、头顶约20%排字空间，姿态端正或侧立，背景颜色不宜过多",
+      "references": ["social/800-03.jpg", "social/802-02.jpg", "social/803-01.jpg"]
+    },
+    {
+      "id": "Style_07",
+      "name": "居家三段叙事风",
+      "vibe": "生活方式、空间美学、松弛",
+      "layout": "满版室内摄影；上部墙面排字，下部人物与家具形成对角线",
+      "typography": "展示粗黑 + 行书 + 中粗无衬线",
+      "blend": "normal；浅色文字与窄描边",
+      "photoRequirements": "环境人像，人物位于右下或左下，上方有30%–40%干净墙面；适合坐姿、躺姿和全身照",
+      "references": ["independent/liu-wen-home.jpg"]
+    },
+    {
+      "id": "Style_08",
+      "name": "极简留白画框风",
+      "vibe": "克制、艺术出版、独立杂志、展览感",
+      "layout": "40%–60%留白，人物缩小或偏置，细线框建立边界",
+      "typography": "Cormorant Garamond + Inter + Noto Serif SC",
+      "blend": "normal；噪点soft-light，避免厚重遮罩",
+      "photoRequirements": "浅色或纯色背景，人物占30%–55%，轮廓简洁；适合全身、远景和静态姿态",
+      "references": ["editorial/04.jpg", "editorial/05.jpg"]
+    },
+    {
+      "id": "Style_09",
+      "name": "暗调电影情绪风",
+      "vibe": "疏离、电影感、成熟、故事性",
+      "layout": "人物偏右或偏左，暗部成为文字区，保留明确光影方向",
+      "typography": "Cormorant Garamond + Noto Serif SC + Inter",
+      "blend": "overlay + 柔和暗角 + 底部渐变",
+      "photoRequirements": "暗部占比至少45%–55%，侧脸、背影或侧背姿态，黑灰服装，最好有硬光投影",
+      "references": ["editorial/03.jpg", "editorial/07.jpg", "examples/png/S145.png"]
+    },
+    {
+      "id": "Style_10",
+      "name": "满版大字先锋杂志风",
+      "vibe": "高定、先锋、时尚、文字与人物穿插",
+      "layout": "满版人物；英文刊名占上部25%–35%，中文标题落左下",
+      "typography": "Cormorant Garamond + Noto Serif SC + Inter",
+      "blend": "overlay或exclusion + 底部渐变 + 4%噪点",
+      "photoRequirements": "高分辨率棚拍半身或全身像，面部在上20%–40%，底部25%较暗；允许文字穿额头或肩部但不能遮蔽双眼",
+      "references": ["examples/png/S51.png", "examples/png/S105.png", "examples/png/S159.png"]
+    },
+    {
+      "id": "Style_11",
+      "name": "侧脸分栏竖刊风",
+      "vibe": "理性、建筑感、瑞士编辑、冷静时尚",
+      "layout": "人物占一侧35%–50%，另一侧形成竖向文字栏，细线分栏",
+      "typography": "Inter或Cormorant Garamond + Noto Serif SC",
+      "blend": "normal或exclusion；避免大面积底部遮罩",
+      "photoRequirements": "侧脸或侧背，人物面朝画面内部，另一侧有35%以上完整留白；不适合正面居中大头照",
+      "references": ["editorial/08.jpg", "examples/png/S199-variant.png"]
+    },
+    {
+      "id": "Style_12",
+      "name": "多格色块拼贴风",
+      "vibe": "实验、艺术、潮流、视觉节奏强",
+      "layout": "2–6格摄影单元搭配纯色块或局部遮罩，人物可被裁切",
+      "typography": "Inter或Playfair Display + Noto Serif SC",
+      "blend": "normal；实色块与硬边遮罩，不使用柔和渐变",
+      "photoRequirements": "最好有一组光线和色调一致的照片；单图需有明确色区和可裁切部位",
+      "references": ["editorial/02.jpg", "editorial/06.jpg"]
+    }
+  ]
+}
